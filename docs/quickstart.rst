@@ -154,6 +154,10 @@ Below is an example view which creates a new user account::
 
 Either of the above will work the same.
 
+.. note::
+    When storing items in SimpleDB, you need to specify two fields: an item name
+    (*the first parameter*), and the item contents (*a Python dictionary*).
+
 On a related note, you can also use the ``simple.domains`` dictionary to
 iterate through all of your domains (*this is sometimes useful*).  Here's how
 you could iterate over your existing SimpleDB domains::
