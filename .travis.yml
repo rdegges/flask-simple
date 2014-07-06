@@ -10,5 +10,5 @@ script:
   - cd docs && make html
 env:
   global:
-  - secure: "Lt0DLSvIV2lzul1Z3/eusQ5WMUlUqWQPNclELkN+Dtn51KAm105ZuLJMjyCb5Aq/Fr1plKTEJm+faeyIX2PkmnxUYcfXsFuG4SfM+SZzPPfXndWuPqaa+k/LkcTAtwm/WBtvFmBjwumUhLGdQgDIE9mmQ7TBiF8zt89ySQCejb4="
-  - secure: "EYmpcJVxQmlrbZOrKHq4mKBQSsBuaISEVb/UMe55TbcbunfT+vkXgycX1xF2MYBBVvDpKv2F5pK9z2YHA3IS4QhscdC1aVkYhnM86VD1IdWq1lbhgL4hjoFwg4uBZGCOBArua5dVXC/7fnyaF0vtBMmQRavgrW16zBGBdvRBmcA="
+    - secure: "NosCss+2t7AtZr11+fzzzZ6LECfB+9LT6pGAwsUkXxr88WtoTDMpwgRnCCIzIKpU8ffGZkWlA0H8jAQmX2b+nCt1A9MCwhRkYUC3XWzBWDCYz/o2HzvReWyTcogAF3NbIrSDIRPa87kVjtQLpJ959fLuHZM1p1onH7AV/Oqw5HQ="
+    - secure: "Z0PwPA7bkkdVtcX3j7O6AOCdJjvB18AVCLg90h9cL4KlBZ86w0OyvpFnzPvgBjCF0LowaajILdtNQhgFMqrqhdzemj+R2dtjs9jNigcqW0cMkZZT2CpplgcoIsCOv05S99iDAnZPgO7SZggkkbYHKKs2pecmps3au4PxhboqsGg="
