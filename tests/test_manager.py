@@ -59,6 +59,15 @@ class SimpleTest(TestCase):
             for domain_name, domain in self.simple.domains.iteritems():
                 self.assertEqual(getattr(self.simple, domain_name), domain)
 
+    def test_use_domain(self):
+        with self.app.app_context():
+            for domain_name, domain in self.simple.domains.iteritems():
+                domain.put_attributes('test', {'color': 'black', 'size': 5})
+
+        with self.app.app_context():
+            for domain_name, domain in self.simple.domains.iteritems():
+                self.assertEqual(self.simple.connection.domain_metadata(domain).item_count, 1)
+
     def tearDown(self):
         """Destroy all provisioned resources."""
         with self.app.app_context():
