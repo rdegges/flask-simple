@@ -64,6 +64,8 @@ class SimpleTest(TestCase):
             for domain_name, domain in self.simple.domains.iteritems():
                 domain.put_attributes('test', {'color': 'black', 'size': 5})
 
+        sleep(60)
+
         with self.app.app_context():
             for domain_name, domain in self.simple.domains.iteritems():
                 self.assertEqual(self.simple.connection.domain_metadata(domain).item_count, 1)
